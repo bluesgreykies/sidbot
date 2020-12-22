@@ -1,0 +1,5 @@
+{
+	"prefix": "?", //amend prefix here
+	"token": "", //paste your bot token in here
+	"ownerID": "" //paste your ID here (this is used for owner-only commands)
+}

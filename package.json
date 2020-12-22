@@ -1,0 +1,18 @@
+{
+  "name": "sidbot-opensource",
+  "version": "1.0.0",
+  "description": "Basic and customisable discord, utility and moderation bot",
+  "main": "sidbot.js",
+  "dependencies": {
+    "discord.js": "^12.4.1",
+    "enmap": "^5.8.2",
+    "humanize-duration": "^3.24.0",
+    "moment": "^2.29.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
