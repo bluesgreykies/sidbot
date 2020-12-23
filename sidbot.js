@@ -8,6 +8,7 @@ client.config = config;
 
 client.on("ready", () => {
     client.user.setPresence({ activity: { name: `${config.prefix}help in ${client.guilds.cache.size} servers` }, status: 'Online' });
+    console.log(`Online - Logged in as ${client.user.tag}`)
   });
 
 fs.readdir("./events/", (err, files) => {
@@ -206,7 +207,7 @@ client.on('message', async message => {
                     }
                          return message.channel.send(success);
 
-        } 
+        }
 });
 
 client.login(config.token);
