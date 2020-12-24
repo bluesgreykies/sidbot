@@ -8,7 +8,7 @@ client.config = config;
 
 client.on("ready", () => {
     client.user.setPresence({ activity: { name: `${config.prefix}help in ${client.guilds.cache.size} servers` }, status: 'Online' });
-    console.log(`Online - Logged in as ${client.user.tag}`)
+    console.log(`Online - Logged in as ${client.user.tag} - Prefix is ${config.prefix}`)
   });
 
 fs.readdir("./events/", (err, files) => {
