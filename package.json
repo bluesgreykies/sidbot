@@ -5,7 +5,6 @@
   "main": "sidbot.js",
   "dependencies": {
     "discord.js": "^12.4.1",
-    "enmap": "^5.8.2",
     "humanize-duration": "^3.24.0",
     "moment": "^2.29.1"
   },
